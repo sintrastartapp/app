@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "src/app/api/assistant/route.ts": {
+      "maxDuration": 60
+    },
+    "src/app/**/actions.ts": {
+      "maxDuration": 60
+    },
+    "src/app/(protected)/[projectId]/actions.ts": {
+      "maxDuration": 60
+    }
+  }
+}

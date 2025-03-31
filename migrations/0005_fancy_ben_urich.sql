@@ -1,0 +1,1 @@
+ALTER TABLE "users_profile" ADD CONSTRAINT "users_profile_user_id_unique" UNIQUE("user_id");

@@ -1,0 +1,1 @@
+ALTER TABLE "projects_invited_members" ADD COLUMN "role" "role" DEFAULT 'member' NOT NULL;

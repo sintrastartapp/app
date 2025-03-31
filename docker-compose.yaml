@@ -1,0 +1,49 @@
+services:
+  database:
+    image: postgres:15.3-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    networks:
+      - app
+
+  app-web:
+    image: ghcr.io/sintrastartapp/app:latest
+    networks:
+      - app
+      - traefik-app
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik-app"
+      - "traefik.http.routers.app-web.rule=Host(`staging.app.vc`)"
+      - "traefik.http.routers.app-web.entrypoints=websecure"
+      - "traefik.http.routers.app-web.tls.certresolver=myresolver"
+      - "com.centurylinklabs.watchtower.enable=true"
+    depends_on:
+      - database
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@database:5432/postgres
+      - NEXT_PUBLIC_URL=https://staging.app.vc
+      - PUBLIC_URL=https://staging.app.vc
+      - OAUTH_GOOGLE_CALLBACK_URL=https://staging.app.vc/login/google/callback
+      - NEXT_PUBLIC_HOTJAR_ID=5168243
+    env_file:
+      - path: .env
+        required: true
+    restart: always
+
+volumes:
+  postgres:
+
+networks:
+  # create with exact name
+  app:
+    name: app
+  traefik-app:
+    external: true

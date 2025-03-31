@@ -1,0 +1,2 @@
+ALTER TABLE "landing_pages" ADD COLUMN "startup_logo_width" integer DEFAULT 325 NOT NULL;--> statement-breakpoint
+ALTER TABLE "landing_pages" ADD COLUMN "startup_logo_height" integer DEFAULT 105 NOT NULL;

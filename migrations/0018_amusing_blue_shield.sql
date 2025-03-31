@@ -1,0 +1,1 @@
+ALTER TABLE "users_profile" ADD COLUMN "feedback_completed" boolean DEFAULT false NOT NULL;

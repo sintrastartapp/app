@@ -1,0 +1,1 @@
+ALTER TABLE "users_tracker" DROP CONSTRAINT "users_tracker_user_id_unique";

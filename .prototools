@@ -1,0 +1,4 @@
+node = "lts"
+
+[settings]
+auto-install = true

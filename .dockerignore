@@ -1,0 +1,8 @@
+// Ignore nextjs files
+.next
+.git
+node_modules
+
+// Ignore docker files
+Dockerfile
+docker-compose.yaml

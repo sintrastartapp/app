@@ -1,0 +1,216 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1727373958390,
+      "tag": "0000_productive_omega_red",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1727381624884,
+      "tag": "0001_amazing_nick_fury",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1727381889103,
+      "tag": "0002_odd_enchantress",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1727384205507,
+      "tag": "0003_rich_rachel_grey",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1727390177893,
+      "tag": "0004_old_skin",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1727390332868,
+      "tag": "0005_fancy_ben_urich",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1727465316126,
+      "tag": "0006_melodic_bloodaxe",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1727473575574,
+      "tag": "0007_thick_doctor_strange",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1727473655748,
+      "tag": "0008_strange_reptil",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1727475507585,
+      "tag": "0009_chilly_ricochet",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1727546130071,
+      "tag": "0010_supreme_speedball",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1727546704239,
+      "tag": "0011_giant_namor",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1727818884714,
+      "tag": "0012_purple_morbius",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1727819022424,
+      "tag": "0013_greedy_outlaw_kid",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1728002892952,
+      "tag": "0014_common_sphinx",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1728426140540,
+      "tag": "0015_stormy_meteorite",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1728777651608,
+      "tag": "0016_awesome_blizzard",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1728941407650,
+      "tag": "0017_first_marvel_apes",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1728946150394,
+      "tag": "0018_amusing_blue_shield",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1729026505138,
+      "tag": "0019_mixed_wilson_fisk",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1729464675973,
+      "tag": "0020_spicy_dorian_gray",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1729468189739,
+      "tag": "0021_small_peter_quill",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1729469018805,
+      "tag": "0022_absent_lord_tyger",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1729470244638,
+      "tag": "0023_fast_vin_gonzales",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1729470372178,
+      "tag": "0024_chubby_reptil",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1729471067458,
+      "tag": "0025_blue_callisto",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1729543453445,
+      "tag": "0026_dapper_gargoyle",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1730244444062,
+      "tag": "0027_magical_switch",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1730549383938,
+      "tag": "0028_soft_sabretooth",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1730550702814,
+      "tag": "0029_easy_hydra",
+      "breakpoints": true
+    }
+  ]
+}

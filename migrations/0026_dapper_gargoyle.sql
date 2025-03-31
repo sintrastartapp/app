@@ -1,0 +1,1 @@
+ALTER TABLE "projects_invited_members" ADD COLUMN "id" text PRIMARY KEY DEFAULT md5(random()::text) NOT NULL;

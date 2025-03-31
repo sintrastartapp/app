@@ -1,0 +1,1 @@
+ALTER TABLE "documents" ADD CONSTRAINT "documents_project_id_slug_unique" UNIQUE("project_id","slug");
