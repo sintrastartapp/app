@@ -1,7 +1,6 @@
 import { Links } from "@/config/links";
 import { getUserOrRedirect } from "@/lib/auth";
 import {
-  DatabaseIcon,
   FlameIcon,
   LightbulbIcon,
   RocketIcon,
@@ -48,18 +47,6 @@ export async function Sidebar() {
           icon={<TrendingUpIcon className="size-4" />}
         >
           Funding
-        </SidebarNavLink>
-        <SidebarNavLink
-          href={Links.ProjectConnect(":id:")}
-          icon={<DatabaseIcon className="size-4" />}
-          disabled
-        >
-          <div className="flex w-full items-center justify-between gap-2">
-            <span>Connect</span>
-            <span className="rounded-sm bg-muted-foreground px-1 text-xs text-muted">
-              Coming soon
-            </span>
-          </div>
         </SidebarNavLink>
       </nav>
     </SidebarWrapper>

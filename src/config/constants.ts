@@ -40,7 +40,7 @@ export const site: Site = {
     slackUrl:
       "https://join.slack.com/t/appvc/shared_invite/zt-249zvkklx-tMFhYJMdTuuLnj1g0AzbQA",
     learningHubUrl:
-      "https://applearning.notion.site/11f851d08402808882f5ebdde4ed437b?v=28c97bab5feb44df85e7adcfeb5cb648",
+      "https://dozerolearning.notion.site/11f851d08402808882f5ebdde4ed437b?v=28c97bab5feb44df85e7adcfeb5cb648",
     supportEmail: env.NEXT_PUBLIC_SUPPORT_EMAIL,
   },
   projects: {

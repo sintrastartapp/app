@@ -21,7 +21,6 @@ export const env = createEnv({
     ASSISTANT_ID_EMAIL_BLURB: z.string(),
     ASSISTANT_ID_FINANCIAL_MODEL: z.string(),
     ASSISTANT_ID_GO_TO_MARKET: z.string(),
-    ASSISTANT_ID_CUSTOMER_PROFILE: z.string(),
     ASSISTANT_ID_INVESTMENT_DECK: z.string(),
     ASSISTANT_ID_KPI_TREE: z.string(),
     ASSISTANT_ID_LEAN_CANVAS: z.string(),
@@ -38,8 +37,8 @@ export const env = createEnv({
   client: {
     NEXT_PUBLIC_URL: z.string().default("https://app.app.vc"),
     NEXT_PUBLIC_HOTJAR_ID: z.string(),
-    NEXT_PUBLIC_TAWK_ACCOUNT_ID: z.string(),
-    NEXT_PUBLIC_TAWK_WIDGET_ID: z.string(),
+    NEXT_PUBLIC_TAWK_ACCOUNT_ID: z.string().optional(),
+    NEXT_PUBLIC_TAWK_WIDGET_ID: z.string().optional(),
     NEXT_PUBLIC_SUPPORT_EMAIL: z.string().email(),
   },
   runtimeEnv: {
@@ -51,7 +50,6 @@ export const env = createEnv({
     ASSISTANT_ID_EMAIL_BLURB: process.env.ASSISTANT_ID_EMAIL_BLURB,
     ASSISTANT_ID_FINANCIAL_MODEL: process.env.ASSISTANT_ID_FINANCIAL_MODEL,
     ASSISTANT_ID_GO_TO_MARKET: process.env.ASSISTANT_ID_GO_TO_MARKET,
-    ASSISTANT_ID_CUSTOMER_PROFILE: process.env.ASSISTANT_ID_CUSTOMER_PROFILE,
     ASSISTANT_ID_INVESTMENT_DECK: process.env.ASSISTANT_ID_INVESTMENT_DECK,
     ASSISTANT_ID_KPI_TREE: process.env.ASSISTANT_ID_KPI_TREE,
     ASSISTANT_ID_LEAN_CANVAS: process.env.ASSISTANT_ID_LEAN_CANVAS,
