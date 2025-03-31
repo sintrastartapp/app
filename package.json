@@ -3,7 +3,7 @@
   "version": "0.1.61",
   "private": true,
   "scripts": {
-    "predev": "docker compose up -d database",
+    "docker-up": "docker compose up -d database",
     "dev": "next dev | pino-pretty",
     "build": "next build",
     "start": "next start",
