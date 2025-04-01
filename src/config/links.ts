@@ -1,8 +1,8 @@
 export const Links = {
-  Root: "https://app.vc",
+  Root: "https://platform.startupsintra.pt",
+  TermsOfUse: "https://platform.startupsintra.pt/terms",
+  PrivacyPolicy: "https://platform.startupsintra.pt/privacy",
   Home: "/",
-  TermsOfUse: "https://app.vc/terms",
-  PrivacyPolicy: "https://app.vc/privacy",
   AccountProfile: "/account/profile",
   AccountTeams: "/account/teams",
   AccountBilling: "/account/billing",
