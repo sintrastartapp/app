@@ -38,7 +38,7 @@ export const site: Site = {
     feedbackUrl:
       "https://a.sprig.com/R2NGX2hTLXJWUzJmfnNpZDozMWYyNTllYS0zYjkwLTRlYTgtOWY0MC1hNzVjZjMwNGJmZjQ=",
     slackUrl:
-      "https://join.slack.com/t/appvc/shared_invite/zt-249zvkklx-tMFhYJMdTuuLnj1g0AzbQA",
+      "https://join.slack.com/t/startup-sintra/shared_invite/zt-32pfv2m47-H1gz~P5gzPEFyBgmp5p0rw",
     learningHubUrl:
       "https://dozerolearning.notion.site/11f851d08402808882f5ebdde4ed437b?v=28c97bab5feb44df85e7adcfeb5cb648",
     supportEmail: env.NEXT_PUBLIC_SUPPORT_EMAIL,
