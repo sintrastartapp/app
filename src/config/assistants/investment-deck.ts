@@ -177,7 +177,7 @@ An investment deck is a vital tool for entrepreneurs seeking funding. It encapsu
       },
       {
         name: "Example",
-        description: `[https://docs.google.com/presentation/d/1kOW1yv0X84RCi6jBdMuT\_Qved-yy6fdBeuXuPnYJ0io/edit\#slide=id.p](https://docs.google.com/presentation/d/1kOW1yv0X84RCi6jBdMuT_Qved-yy6fdBeuXuPnYJ0io/edit#slide=id.p)
+        description: `[https://docs.google.com/presentation/d/1FnrRr3P3ngVLOt2vcknxf9ApmBxpjSbCZ2vBIoLymCk/edit#slide=id.gb60092d39a_0_62](https://docs.google.com/presentation/d/1FnrRr3P3ngVLOt2vcknxf9ApmBxpjSbCZ2vBIoLymCk/edit#slide=id.gb60092d39a_0_62)
 
 This investment deck is a template that you can use to build your investment deck, to do so, simply copy it to your drive, or download it.`,
       },
