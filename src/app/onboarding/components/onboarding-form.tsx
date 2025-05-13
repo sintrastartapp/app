@@ -70,9 +70,21 @@ export function OnboardingForm() {
               <FormLabel>Startup website</FormLabel>
               <FormControl>
                 <Input
-                  type="url"
+                  type="text"
                   placeholder="Your startup website"
                   {...field}
+                  onChange={(e) => {
+                    let value = e.target.value;
+                    if (
+                      value &&
+                      (value.length > 7 || value.includes(".")) &&
+                      !value.startsWith("http://") &&
+                      !value.startsWith("https://")
+                    ) {
+                      value = `https://${value}`;
+                    }
+                    field.onChange(value);
+                  }}
                 />
               </FormControl>
               <FormDescription>This field is optional.</FormDescription>

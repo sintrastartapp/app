@@ -46,8 +46,8 @@ export async function GET(request: Request): Promise<Response> {
       "Invalid OAuth callback"
     );
 
-    return new Response(null, {
-      status: 400,
+    return new Response("Unauthorized", {
+      status: 401,
     });
   }
 

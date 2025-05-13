@@ -137,10 +137,6 @@ export async function POST(req: Request) {
       }
 
       await runStream.finalMessages().then((finalMessages) => {
-        console.log("-".repeat(100));
-        console.dir(finalMessages, { depth: null });
-        console.log("-".repeat(100));
-
         if (finalMessages.length > 0) {
           const lastMessage = finalMessages[finalMessages.length - 1];
 
