@@ -5,7 +5,7 @@ import { Pool } from "pg";
 const pool = new Pool({
   connectionString: env.DATABASE_URL,
   min: 1,
-  max: 10,
+  max: 20,
 });
 
 export const db = drizzle(pool);
