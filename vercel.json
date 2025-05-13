@@ -1,28 +1,28 @@
 {
   "functions": {
     "src/app/api/assistant/route.ts": {
-      "maxDuration": 60
+      "maxDuration": 180
     },
     "src/app/**/actions.ts": {
-      "maxDuration": 60
+      "maxDuration": 180
     },
     "src/app/(protected)/[projectId]/actions.ts": {
-      "maxDuration": 60
+      "maxDuration": 180
     },
     "src/app/(protected)/[projectId]/development-phase/home/page.tsx": {
-      "maxDuration": 60
+      "maxDuration": 180
     },
     "src/app/(protected)/[projectId]/funding/home/page.tsx": {
-      "maxDuration": 60
+      "maxDuration": 180
     },
     "src/app/(protected)/[projectId]/go-to-market/home/page.tsx": {
-      "maxDuration": 60
+      "maxDuration": 180
     },
     "src/app/(protected)/[projectId]/the-problem/home/page.tsx": {
-      "maxDuration": 60
+      "maxDuration": 180
     },
     "src/app/(protected)/[projectId]/layout.tsx": {
-      "maxDuration": 60
+      "maxDuration": 180
     }
   }
 }
