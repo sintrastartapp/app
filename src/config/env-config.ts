@@ -70,7 +70,7 @@ export const env = createEnv({
     EMAIL_PUBLIC_URL: process.env.EMAIL_PUBLIC_URL,
     RESEND_KEY: process.env.RESEND_KEY,
     NODE_ENV: process.env.NODE_ENV,
-    DATABASE_URL: process.env.POSTGRES_URL || process.env.DATABASE_URL,
+    DATABASE_URL: process.env.DATABASE_URL,
     OAUTH_GOOGLE_CLIENT_ID: process.env.OAUTH_GOOGLE_CLIENT_ID,
     OAUTH_GOOGLE_CLIENT_SECRET: process.env.OAUTH_GOOGLE_CLIENT_SECRET,
     OAUTH_GOOGLE_CALLBACK_URL: process.env.OAUTH_GOOGLE_CALLBACK_URL,
